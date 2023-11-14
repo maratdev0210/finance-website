@@ -1,0 +1,376 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.header-content {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FDF0E6;
+}
+
+.header-content > * {
+    flex: 1;
+    flex-basis: 100%;
+}
+
+nav {
+    display: flex;
+}
+
+nav .logo, nav .contact-button {
+    flex: 1;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav .links {
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 24px;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+nav .contact-button {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+nav .contact-button button a {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+nav .contact-button button {
+    background-color: rgb(240, 142, 128);
+    width: 150px;
+    height: 60px;
+    border: none;
+}
+
+nav .contact-button button:hover {
+    background-color: #F3A194;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+nav .logo {
+    font-size: 36px;
+    padding-left: 60px;
+}
+
+nav .logo a {
+    color: #F08E80;
+}
+
+.header-content .text {
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    margin-bottom: -30px;
+}
+
+.header-content .text div {
+    flex: 1;
+    flex-basis: 100%;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-content .text div span {
+    display: flex;
+    justify-content: center;
+    color: #F08E80;
+}
+
+.header-content .text .first-line span {
+    align-items: end;
+    margin-bottom: 5px;
+}
+
+.schedule-consultation {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.schedule-consultation a {
+    text-decoration: underline;
+    color:rgb(240, 142, 128);
+    font-size: 24px;
+    font-style: italic;
+}
+
+
+
+
+
+.description-text {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.description-text div {
+    flex: 1;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.description-text div span {
+    font-size: 32px;
+}
+
+.description-text .first-line {
+    align-items: end;
+}
+
+.image-placeholder img {
+    width: 100%;
+}
+
+
+.services {
+    margin-top: -10px;
+    background-color: #FDF0E6;
+}
+
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 15px;
+}
+
+.services-list > * {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 1;
+    flex-basis: 30%;
+    height: 250px;
+}
+
+
+.services-list p {
+    display: flex;
+    justify-content: center;
+    flex-basis: 100%;
+    font-size: 32px;
+    color: #F39A80;
+}
+
+.services-list .text {
+    width: 60%;
+    text-align: center;
+    margin-bottom: 50px;
+    line-height: 25px;
+    font-size: 22px;
+}
+
+
+
+.services h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 42px;
+    padding-top: 30px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    color: #F08E80;
+}
+
+.services .learn-more {
+    display: flex;
+    justify-content: center;
+}
+
+.services .learn-more button {
+    width: 200px;
+    height: 60px;
+    border: none;
+    background-color: rgb(240, 142, 128);
+    margin-bottom: 100px;
+}
+
+.services .learn-more button:hover {
+    background-color: #F3A194;
+}
+
+.services .learn-more button a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.review-section {
+    display: flex;
+    margin-bottom: 80px;
+    margin-top: 100px;
+}
+
+
+.review {
+    height: 500px;
+    width: 200px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    position: relative;
+    left: 40px;
+    margin-top: 150px;
+    z-index: 1;
+    width: 600px;
+    background-color: #FDF0E6;
+}
+
+.review span {
+    border: inherit;
+    font-size: 36px;
+    padding: 40px;
+    width: 60%;
+    line-height: 45px;
+}
+
+.review .person {
+    font-size: 24px;
+}
+
+.image {
+    flex: 0 0 auto;
+    position: relative;
+    right: 5%;
+}
+
+.consult-section {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FDF0E6;
+    margin-top: 150px;
+}
+
+.consult-section > * {
+    flex: 1;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.consult-section h2 {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    margin-top: 0px;
+    font-size: 48px;
+    margin-bottom: 0px;
+}
+
+.consult-section button {
+    margin-bottom: 60px;
+    margin-top: 30px;
+    width: 450px;
+    height: 80px;
+    background-color:rgb(240, 142, 128);
+    border: none;
+}
+
+.consult-section button:hover {
+    background-color: #F3A194;
+}
+
+.consult-section button a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.consult-section span {
+    font-size: 22px;
+    font-style: italic;
+}
+
+
+footer > * {
+    border: inherit;
+}
+
+.website-name {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+.footer-info > * {
+    border: inherit;
+    width: 400px;
+}
+
+.footer-info span {
+    padding-left: 30px;
+    font-size: 24px;
+    display: inline-block;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-info ul li {
+    font-size: 18px;
+}
+
+.footer-info .location ul li {
+    display: flex;
+    justify-content: center;
+    padding-right: 10px;
+    margin-bottom: 5px;
+}
+
+.footer-info .contact ul li {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.footer-info .follow ul li {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-info a {
+    color: #F5AA80;
+    margin-bottom: 5px;
+}
+
